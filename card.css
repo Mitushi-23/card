@@ -1,8 +1,9 @@
 :root {
-  --primary: #FFCE00;
-  --secondary: #FE4880;
+  --primary: #201eb3;
+  --secondary: #e20a4c;
   --dark: #212121;
   --light: #F3F3F3;
+  #eae4e4
 }
 
 * {
@@ -20,6 +21,7 @@ body {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
+   background-color: #212121;
   }
 
 
