@@ -53,3 +53,38 @@ card[i].addEventListener("click", function (e) {
   card[i].classList.toggle('is-flipped');
 });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+const obj = JSON.parse(text);
+for(var i=2;i>=0;i--){
+let code=document.querySelector(".demo");
+let content= obj.employees[i].firstName + " " + obj.employees[i].lastName;
+code.innerHTML += content;
+}

@@ -1,9 +1,11 @@
 :root {
-  --primary: #201eb3;
+  --primary: #43b7ff;
   --secondary: #e20a4c;
   --dark: #212121;
   --light: #F3F3F3;
-  #eae4e4
+  /* #eae4e4
+  #43b7ff
+  #201eb3 */
 }
 
 * {
@@ -15,13 +17,14 @@ body {
   font-family: montserrat, sans-serif;
   width: 100%;
   min-height: 100vh;
+  background-color: #212121;
 }
   .cardholder{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   background-color: #212121;
+   margin-bottom: 100px;
   }
 
 
