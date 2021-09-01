@@ -18,7 +18,7 @@
     padding: 0;
   }
   
-  body {
+  .Holder {
     font-family: montserrat, sans-serif;
     width: 100%;
     min-height: 100vh;
@@ -33,8 +33,8 @@
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-around;
-     margin-bottom: 50px;
-     
+     padding-bottom: 50px;
+     padding-top: 35px;
     }
   
   
