@@ -1,0 +1,77 @@
+/* About us */
+
+.aboutus{
+    background-color: #EDECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #abouthead{
+    height: 50px;
+    width: 196px;
+    background-color: white;
+    color: #7c7a7aaf;
+    font-size: 25px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 30px;
+    
+  }
+  #tagline{
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  #msg{
+    margin: 40px;
+  }
+  
+  /* Interactive Alley */
+  
+  .alleybox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    background-image: url(../card/assets/alley.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  #text{
+    color: white;
+    font-size: 50px;
+  }
+  
+  
+  /* Events */
+  .event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 600px;
+  }
+  
+  #eventhead{
+    margin: 40px;
+    color: white; 
+    font-size: 50px;
+   }
+  
+  #eventbody{
+    margin: 50px;
+  }
+  
+  #eventimg{
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+  }
+  
