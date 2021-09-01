@@ -119,10 +119,12 @@
   .right form input{
       padding-top: 5px;
       padding-bottom: 5px;
+      border: solid 2px black;
   }
 
   .right form textarea{
       padding-top: 10px;
+      border: solid 2px black;
   }
 
   .right form input:focus,
@@ -134,13 +136,14 @@
   }
   .right form .btn{
     margin-top: 10px;
+    margin-left: 83%;
   }
   .right form .btn button{
     height: 40px;
-    width: 20%;
+    width: 100px;
     border: none;
     outline: none;
-    background: white;
+    background: #c4c4c4;
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
@@ -154,7 +157,7 @@
 } */
 
   .right form .btn button:hover{
-    background: white;
+    background: #dedbdbc2;
   }
 
   .left1{
